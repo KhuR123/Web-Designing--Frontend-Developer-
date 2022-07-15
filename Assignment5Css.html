@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account</title>
+        <link rel="icon" href="Images/rashi_icon.png">
+        <style>
+            #details{
+                padding: 15px 30px;
+            }
+            button{
+                background-color: rgb(123,190,230);
+                color: white;
+                padding: 10px;
+                border: none;
+            }
+            section{
+                padding: 50px 250px 50px 50px;
+                width: 100%;
+                background: url(Images/universe.jpg);
+                background: linear-gradient(rgba(248, 215, 27,0.2));
+                background-size: cover;
+                background-position: center;
+                text-align: center;
+            }
+            div{
+                margin: -2px;
+                width: max-content;
+                display: inline-block;
+                background-color: rgb(56,55,55);
+                text-align: left;
+                line-height: 30px;
+                border: none;
+                border-bottom: 2px white;
+            }
+            input{
+                width: max-content;
+                height: 20px;
+                background-color: rgb(56,55,55);
+                margin: 10px 0px;
+                border: none;
+                border-bottom: 2px solid white;
+                text-align: justify;
+            }
+            #a{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div>
+                <img src="images/Assignment5css photo.jpg" width="300px" height="470px" alt="form">
+            </div>
+            <div>
+                <h1 style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create Account</h1>
+                <form id="details">
+                    <label></label>
+                    <input type="text" placeholder="Full Name" maxlength="20" required>
+                    <br/><br/>
+                    <label></label>
+                    <input type="Email" placeholder="Email Address" maxlength="120" required>
+                    <br/><br/>
+                    <label></label>
+                    <input type="tel" placeholder="Phone Number-optional" maxlength="10" minlength="10" pattern="[0-9]">
+                    <br/><br/>
+                    <label></label>
+                    <input type="Password" placeholder="Password" minlength="6" maxlength="9" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6}" required>
+                    <br/><br/>
+                    <label></label>
+                    <input type="password" placeholder="Confirm Password" minlength="6" maxlength="9" pattern="pattern=(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6}" required>
+                    <br/><br/>
+                    <button type="submit">&nbsp;&nbsp;SIGNUP NOW</button>
+                    <a href="www.goggle.com" id="a">I have an account</a>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
